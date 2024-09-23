@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+</head>
+<body>
+    <table border = 1>
+        <caption>Registration</caption>
+    <form action="/contact-me">
+        <tr>
+            <td>Student Name: <input type="text" placeholder="First Name" required></td>
+            <td><input type="text" placeholder="Middle Name" required></td>
+            <td><input type="text" placeholder="Last Name" required></td>
+        </tr>
+
+        <tr>
+            <td>Father's Name: <input type="text" placeholder="Enter your Father's Name" required></td>
+            <td>Mother's Name: <input type="text" placeholder="Enter your Mother's Name" required></td>
+            <td>Phone Number:  <input type="number" placeholder="Enter your number" required></td>
+        </tr>
+        <tr>
+            <td>Date of Birth: <input type="date"></td>
+            <td></td>
+        </tr>
+            <td>Gender: </td>
+            <td><label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="male"></td>
+            <td><label for="female">Female</label>
+                <input type="radio" id="male" name="gender" value="female"></td>
+            <td><label for="others">Others</label>
+                <input type="radio" id="others" name="gender" value="others"></td>
+        </tr>
+        <tr>
+            <td>Category: </td>
+            <td><label for="general">General</label>
+                <input type="radio" id="general" name="category" value="general"></td>
+            <td><label for="obc">OBC</label>
+                <input type="radio" id="obc" name="category" value="obc"></td>
+            <td><label for="sc/st">SC/ST</label>
+                <input type="radio" id="sc/st" name="category" value="sc/st"></td>
+        </tr>
+
+    </form>
+</table>
+</body>
+</html>
